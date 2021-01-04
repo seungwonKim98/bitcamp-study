@@ -1,0 +1,55 @@
+개발 환경설정.
+
+[★깃]
+
+[본인거 할때 ]
+
+git client - 구글에서 깃 클라이언트 다운로드 
+
+설치후 cmd 창에서 
+ㄴ git --version 으로 설치 되었나 확인.
+
+cmd에서 아래 명령어 실행
+> mkdir git 
+> cd git
+
+github 에서 code 주소 복사후 cmd에서 붙여넣기
+앞에 git clone 붙여줘야함.
+ㄴ //github clone https://github.com/seungwonKim98/bitcamp-study.git
+
+dir 쳐서 디렉터리에 깃에서 생성한 git 폴더 잘있나 확인. 
+//ide 프로그램 들어가서 git 파일경로 잡아주기. 
+
+//cmd에서 git 폴더안에 생성한 폴더 잡아주기.
+ㄴ // cd 폴더명 해서 git폴더안에 생성한 폴더로 변경해주기
+   // cd bitcamp-study
+
+백업 명단 작성
+ㄴ git add . 해서 저장할 파일 목록 생성.
+
+로컬 저장소에 백업
+ㄴ git commit -m "." // "" 안에 메모할 내용. 
+
+//깃을 처음 까는 거라면 깃 설정 잡아달라는 안내 문구가 나옴.
+
+ㄴ git config --global user.email "godswan1998@gmail.com"
+    git config --global user.name "seungwonKim98"
+
+실행 
+ㄴ git push 
+
+// github 에서 연동 시켜주고 다시 확인 
+
+[★ 깃에서 받아올때]
+폴더 상위 폴더로 이동 시켜주고 
+ㄴ git\bitcamp-study 에서 cd .. 으로 상위폴더 이동
+
+git clone 로 받아오기. (https://github.com/eomcs)
+ㄴ https://github.com/eomjinyoung/bitcamp-20201221 예시 
+    깃허브에서 받아올 코드주소 받아오기 
+
+// eomcs-spring-webmvc, eomcs-java-web, eomcs-java-project-2021
+   eomcs-java-project-2020, eomcs-java, eomcs-docs, bitcamp-20201221
+// 받아오기. 
+
+받아올때는 cmd 에서 git pull 입력 
