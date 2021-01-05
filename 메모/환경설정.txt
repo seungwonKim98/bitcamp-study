@@ -53,3 +53,29 @@ git clone 로 받아오기. (https://github.com/eomcs)
 // 받아오기. 
 
 받아올때는 cmd 에서 git pull 입력 
+
+
+-----------------------------------------------------------------------------------------
+
+[★ Eclipse]
+
+graalvm-ce-java11-windows-amd64-20.3.0
+설치 해두고 환경변수 path 에서 jdk 15.0.1 > graalvm\bin 으로 변경해두어야함.
+
+path 환경변수 설정 완료되고나면 확인하고 나와서 시스템변수에서 JAVA_HOME 만들어줘야함.
+경로  C:\java\graalvm-ce-java11-20.3.0 로 수정해줘야함. 
+
+이클립스 다운. eclipse.org > download > Eclipse IDE for Enterprise Java Developers 선택 
+> java 11 + VM 에서 11.0.2로 변경 > C:\Users\bitcamp\eclipse\jee-2020-12 
+				ㄴ( bitcamp를 내 사용자명으로 변경)
+> 런치 실행 > use this as the default and do not ask again 체크후 런치 > 실행
+
+-------------------------------(강사님 깃 eomcsdocks devtool에 있음) -----------------------------------
+이클립스 들어와서 > 상단 윈도우/ 프레퍼런스 클릭 > general > appearance > colors and fonts 
+> basic > text font > edit 클릭 > d2coding 20 선택 확인 > 어플라이
+
+
+
+★ 폰트 설치 //  naver d2 coding 검색 > naver/d2codingfont: D2 Coding 글꼴 - GitHub 들어가기
+>D2Coding Ver 1.3.2 > D2Coding-Ver1.3.2-20180524.zip 다운 > d2 coding all 폴더의 파일 실행후 설치
+
