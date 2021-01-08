@@ -8,27 +8,29 @@ package com.eomcs.lang.ex03;
 //
 public class Exam0340 {
   public static void main(String[] args) {
-    
+    final float f = 12.375f;
+    final double d = 12.375;
+
     //## 4byte(float) 부동소수점의 유효자릿수
     //소수점을 뺀 후 7자리 숫자까지는 거의 정상적으로 저장된다.
     System.out.println(999.9999f);
     System.out.println(999999.9f);
     System.out.println(9.999999f);
     System.out.println("----------------------------");
-    
+
     //유효자릿수가 7자리를 넘어가는 경우 값이 잘려서 저장될 수 있다.
     System.out.println(987654321.1234567f);
     System.out.println(9.876543211234567f);
     System.out.println(987654321123456.7f);
     System.out.println("----------------------------");
-    
+
     //## 8byte(double) 부동소수점의 유효자릿수
     //소수점을 뺀 후 16자리 숫자까지는 거의 정상적으로 저장된다.
     System.out.println(987654321.1234567);
     System.out.println(9.876543211234567);
     System.out.println(987654321123456.7);
     System.out.println("----------------------------");
-    
+
     //유효자릿수가 16자리를 넘어가는 경우 값이 잘려서 저장될 수 있다.
     System.out.println(987654321.12345678);
     System.out.println(9.8765432112345678);
@@ -44,8 +46,11 @@ public class Exam0340 {
     //  - IEEE-754의 방법에 내재되어 있는 문제다.
     //- 해결책
     //  - 시스템에서 필요한 만큼 소수점 이하 자리수를 적절히 짤라 사용하라!
+
+
   }
 }
+
 
 //## 결론!
 //- 32비트(float) 메모리에 부동소수점을 저장할 때는 유효자릿수 7자리까지는 거의 가능하다. 
