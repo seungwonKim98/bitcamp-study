@@ -10,7 +10,7 @@ package com.eomcs.lang.ex03;
 //## 유니코드
 //- 전 세계의 모든 문자를 컴퓨터에서 일관되게 처리할 목적으로 정의된 산업 표준 규칙이다.
 //- 유니코드는 '문자를 2진수로 표현(인코딩; encoding)'할 때, 두 가지 방식(UTF와 UCS)을 사용한다. 
-//- 자바는 메모리에 문자를 저장할 때는 'UCS(국제 문제 집합)'를 사용하고, 외부로 입출력 할 때는 'UTF'를 사용한다.
+//- 자바는 메모리에 문자를 저장할 때는 'UCS(국제 문자 집합)'를 사용하고, 외부로 입출력 할 때는 'UTF'를 사용한다.
 //
 //## UCS(Universal Coded Character Set; 국제 문자 집합)
 //- 'ISO 10646' 표준을 가리키는 이름이다.
@@ -56,10 +56,10 @@ package com.eomcs.lang.ex03;
 
 public class Exam0420 {
   public static void main(String[] args) {
-    
+
     //## 문자 'A'의 문자 코드를 직접 사용하여 문자를 출력하기
     //유니코드 문자집합에서 문자 'A'의 문자 코드는 65 이다.
-    
+
     //println()에 숫자를 그냥 전달하면 일반 숫자인줄 알고 그대로 출력한다.
     System.out.println(65);
 
@@ -73,10 +73,10 @@ public class Exam0420 {
 
     //한글 '가'를 문자 코드를 이용하여 출력하기
     System.out.println((char)0xAC00);
-    
+
     //'가' 다음 문자 출력하기
     System.out.println((char)(0xAC00 + 1));
-    
+
     //영어 대문자 모두 출력하기
     //첫 번째 알파벳의 코드 값만 안다면 + 연산자를 이용하여 출력할 수 있다.
     for (int i = 0; i < 26; i++) {
