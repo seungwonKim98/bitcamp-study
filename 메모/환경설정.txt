@@ -79,5 +79,6 @@ path 환경변수 설정 완료되고나면 확인하고 나와서 시스템변�
 ★ 폰트 설치 //  naver d2 coding 검색 > naver/d2codingfont: D2 Coding 글꼴 - GitHub 들어가기
 >D2Coding Ver 1.3.2 > D2Coding-Ver1.3.2-20180524.zip 다운 > d2 coding all 폴더의 파일 실행후 설치
 
-1
+
+eomcs project 2021 mini pms 안에 readme 에 설정들 있음. 
 
