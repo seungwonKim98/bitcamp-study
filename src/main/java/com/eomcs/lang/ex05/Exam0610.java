@@ -23,6 +23,7 @@ public class Exam0610 {
     // System.out.println(4);
     // i = i + 1;  ==> 5
     System.out.println(i);
+    
 
   }
 }
